@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{72FB7DD0-87C8-403E-A293-8C51F08FA84A}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
+		.gitignore = .gitignore
 		prometheus.yml = prometheus.yml
 	EndProjectSection
 EndProject
