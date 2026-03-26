@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math", "Math\Math.csproj", "{69288F87-2E55-4BDB-8C6D-1B990C2B747F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{72FB7DD0-87C8-403E-A293-8C51F08FA84A}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		prometheus.yml = prometheus.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{CB3E3EE4-09A2-4671-854D-83C8268C6E4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69288F87-2E55-4BDB-8C6D-1B990C2B747F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69288F87-2E55-4BDB-8C6D-1B990C2B747F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69288F87-2E55-4BDB-8C6D-1B990C2B747F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69288F87-2E55-4BDB-8C6D-1B990C2B747F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB3E3EE4-09A2-4671-854D-83C8268C6E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3E3EE4-09A2-4671-854D-83C8268C6E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3E3EE4-09A2-4671-854D-83C8268C6E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3E3EE4-09A2-4671-854D-83C8268C6E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {811FF6F5-C3A8-449B-AB3D-3FCA593EF009}
+	EndGlobalSection
+EndGlobal
