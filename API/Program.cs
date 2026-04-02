@@ -1,4 +1,8 @@
 
+using API.Metrics;
+using Math.Interfaces;
+using Math.Service;
+
 namespace API
 {
     public class Program
@@ -13,6 +17,10 @@ namespace API
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddScoped<MathService>();
+            builder.Services.AddScoped<IMathService>(sp =>
+                new MeasuredMathService(sp.GetRequiredService<MathService>()));
 
             var app = builder.Build();
 
