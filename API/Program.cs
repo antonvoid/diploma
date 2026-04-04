@@ -2,6 +2,7 @@
 using API.Metrics;
 using Math.Interfaces;
 using Math.Service;
+using Prometheus;
 
 namespace API
 {
@@ -35,8 +36,9 @@ namespace API
 
             app.UseAuthorization();
 
-
             app.MapControllers();
+
+            app.MapMetrics();
 
             app.Run();
         }
