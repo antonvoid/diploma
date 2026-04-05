@@ -135,9 +135,5 @@ namespace Math.Service
                 arr[i] = start + step * i;
             return arr;
         }
-        public double Compute(double x)
-        {
-            return x * x + 42;
-        }
     }
 }

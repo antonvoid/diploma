@@ -12,12 +12,7 @@ namespace API.Controllers
         {
             _service = service;
         }
-        [HttpGet("tets")]
-        public ActionResult GetSolution()
-        {
-            var x = _service.Compute(10);
-            return Ok(x);
-        }
+
         [HttpPost("exponential")]
         public ActionResult<ExpOdeResponse> SolveExponential([FromBody] ExpOdeRequest req)
         {

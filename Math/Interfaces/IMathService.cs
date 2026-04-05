@@ -8,8 +8,6 @@ namespace Math.Interfaces
 {
     public interface IMathService
     {
-        double Compute(double x);
-
         (double[] t, double[] y) SolveExponentialGrowthDecay_RK4(
         double a,
         double y0,
